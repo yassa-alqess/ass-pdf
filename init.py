@@ -33,9 +33,11 @@ def create_pdf(title:str, name:str, id:str, image_path:str, output_path:str) -> 
     doc.drawString(row//3, col-200, "Id: " + id)
 
 
+    allowed_ex = ["png", "jpg", "jpeg", "JPEG"]
     # Add images on separate pages
     img_path = os.path.join(os.getcwd(), image_path)
     for image in os.listdir(img_path):
+        if image.split(".")[-1] not in allowed_ex: continue
         doc.showPage() 
         doc.drawImage(img_path+image, 100, 100, width=400, height=500)
 
