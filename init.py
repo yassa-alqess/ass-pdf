@@ -1,5 +1,4 @@
-# this is the init prodcecure 
-
+#! /usr/bin/env python3 (shebang)
 # ToDO: allow my api to accept arguments from a file
 # TODO: use selenium to hand in the task
 # TODO: document and test the code
@@ -12,7 +11,8 @@ import sys
 import os
 
 
-# main function
+
+# this is the init prodcecure 
 def create_pdf(title:str, name:str, id:str, image_path:str, output_path:str) -> None:
 
     # validation
