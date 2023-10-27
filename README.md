@@ -1,7 +1,6 @@
 # ass-pdf
 
-
-=> just a command line tool to automate the creatation & handing my assignment, which is a very tedious task for me to do.
+Just a command line tool to automate the creatation & handing my assignment, which is a very tedious task for me to do.
 
 
 
@@ -26,3 +25,5 @@ and to have such a permission, run the following shell command.
 ```bash
 chmod +x init.py
 ```
+
+=> The output is a pdf file on the same dir.
