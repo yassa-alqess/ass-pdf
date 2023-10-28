@@ -1,4 +1,4 @@
-/.img
+.img/*
 *.pdf
 *.txt 
 !requirements.txt
